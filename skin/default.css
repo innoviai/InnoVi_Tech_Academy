@@ -32,6 +32,12 @@ a:hover {
 	color: #85b0be;
 	box-shadow: 0 0 0 4px #85b0be;
 }
+
+.hi-icon .fas{
+	color: #85b0be;
+	width: 20px;
+	height: 20px;
+}
 .no-touch .hi-icon-effect-5 .hi-icon:hover {
 	background: #85b0be;
 	box-shadow: 0 0 0 8px  #7074fc;
