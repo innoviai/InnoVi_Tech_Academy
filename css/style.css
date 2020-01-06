@@ -341,7 +341,7 @@ section.section {
 .navbar {
 	line-height: 100px;
 	height: 100px;
-	background-color: rgba(0,0,0,0.3);
+	/*background-color: rgba(0,0,0,0.3);*/
 	display: block;
 	vertical-align: middle;
 	text-align: center;
