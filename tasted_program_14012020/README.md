@@ -1,7 +1,5 @@
 # InnoVi_Tech_Academy Tasted Program (14 Jan 2020)
 
-# Dash Online Data Science Dashboard using Plotly
-
 ## Topic: Interactive Dashboards for Data Science <br />
 In this tasted program, we are going to create an online Data Science Dashboard. It can conduct a powerful way of communicating the results of a Data Science project. A good Dashboard can:<br />
 -	Summarize the main results of a data analysis.<br />
