@@ -1,6 +1,6 @@
 # InnoVi_Tech_Academy
 
-Website : https://innoviai.github.io/InnoVi_Tech_Academy/index.html
+Website : http://innovi.ai/InnoVi_Tech_Academy/
 
 Tech Academy Area
 
