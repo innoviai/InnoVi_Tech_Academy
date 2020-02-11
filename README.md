@@ -8,4 +8,4 @@ Tech Academy Area
 
 ## [Game Development](../../tree/master/game_development)
 
-## [Unty Development](../../tree/master/game_development)
+## [Artificial Intelligence Courses](../../tree/master/Artificial_Intelligence_Training)
