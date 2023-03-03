@@ -1,0 +1,210 @@
+.section-1{
+    position: relative;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+    background-color: #fff;
+}
+
+.section-1 .container-left .title{
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.section-1 .container-left .date{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-1 .container-right{
+    display: flex;
+
+}
+
+.section-1 .container-right a{
+    padding: 15px 40px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+.section-1 .container-right .btn-early-bird{
+    background-color: #C4C4C4;
+    border: 1px solid #C4C4C4;
+}
+
+.section-1 .container-right .btn-apply-now{
+    background-color: #FB8D8D;
+    margin-left: 30px;
+    border: 1px solid #FB8D8D;
+
+}
+
+.section-1 .container-right .btn-early-bird:hover{
+    background-color: #fff;
+    border: 1px solid #C4C4C4;
+    color: #C4C4C4;
+}
+
+.section-1 .container-right .btn-apply-now:hover{
+    background-color: #fff;
+    margin-left: 30px;
+    border: 1px solid #FB8D8D;
+    color: #FB8D8D;
+
+}
+
+
+.btnprice{
+    font-size: 18px;
+}
+
+
+.section-2{
+    background-color: #fff;
+    padding: 0 20px;
+    padding-top: 5px;
+}
+
+.section-2 .container{
+    background-color: white;
+    padding: 30px 20px;
+}
+
+.section-2 .container .part-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 .container .part-1 .container-instructors{
+    flex: 1;
+}
+
+.section-2 .container .part-1 .container-instructors > .title{
+    margin-bottom: 30px;
+}
+
+.section-2 .container .part-1 .container-instructors .container-faceBox .faceBox{
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.section-2 .container .part-1 .container-aimFor{
+    background-color: #AE8BBF;
+    border-radius: 0.25em;
+    padding: 20px;
+    flex: 1;
+}
+
+.section-2 .container .part-3 .container-learn{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.section-2 .container .part-3 .container-learn .learnBox{
+    padding: 20px;
+    margin-right: 35px;
+    background-color: #E9B976;
+    flex: 1;
+}
+
+.section-2 .container .part-3 .container-learn .learnBox:last-child{
+    margin-right: 0;
+}
+
+.section-2 .container .part-3 .container-learn .learnBox div{
+    margin-bottom: 8px;
+}
+
+.section-2 .container .part-3 .container-learn .learnBox .title{
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.section-2 .container .part-4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 .container .part-4 .container-left, 
+.section-2 .container .part-4 .container-right{
+    flex: 1;
+}
+
+.section-2 .container .part-4 .container-left .content div{
+    margin: 10px 0;
+    display: flex;
+    flex: 1;
+}
+
+.section-2 .container .part-4 .container-right{
+    background-color: #E2E2E2;
+    padding: 20px;
+}
+
+.section-2 .container .part-4 .container-right .container-eventBox{
+    display: flex;
+}
+
+.section-2 .container .part-4 .container-right .container-eventBox .eventBox{
+    flex: 1;
+}
+
+@media only screen and (max-width: 1383px){
+    .section-2 .container .part-1{
+        display: block;
+    }
+
+    .section-2 .container .part-1 .container-instructors .container-faceBox{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1285px){
+    .section-2 .container .part-3 .container-learn{
+        display: block;
+    }
+
+    .section-2 .container .part-3 .container-learn .learnBox{
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 1187px){
+    .section-1{
+        flex-direction: column;
+    }
+
+    .section-1 .container-right{
+        margin-top: 20px;
+    }
+
+    .section-2 .container .part-4{
+        display: block;
+    }
+
+    .section-2 .container .part-4 .container-left{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .section-2 .container .part-4 .container-right .container-eventBox{
+        display: block;
+    }
+
+    .section-2 .container .part-4 .container-right .container-eventBox .eventBox{
+        width: 100%;
+    }
+}

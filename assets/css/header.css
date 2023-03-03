@@ -1,0 +1,20 @@
+header{
+    background-image: url(../img/header-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+@media (min-width:375px){
+    header{height:110px}
+}
+@media (min-width:768px){
+    header{height:240px}
+}
+@media (min-width:992px){
+    header{height:340px}
+}
+@media (min-width:1200px){
+    header{height:415px}
+
+}

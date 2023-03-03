@@ -1,0 +1,87 @@
+.container-form{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.form{
+    width: 80%;
+    padding: 20px;
+}
+
+.form > .title{
+    font-size: 1.5em;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+
+.close-tab{
+    position: absolute;
+    top: 25%;
+    left: 92%;
+    font-weight: bold;
+    color: lightgray;
+    cursor: pointer;
+    user-select: none;
+}
+
+.form .content{
+    padding: 20px;
+}
+
+.form .content .row{
+    padding-bottom: 30px;
+}
+
+.row-center{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-cpn-input label, .form-cpn-group .title{
+    font-weight: bold;
+}
+
+.form-cpn-input input{
+    font-size: 1.1em;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin-top: 8px;
+    padding: 5px 10px;
+}
+
+.form-cpn-group .title{
+    margin-bottom: 10px;
+}
+
+.form-cpn-group .group-row{
+    margin-bottom: 5px;
+}
+
+.form-cpn-group .group-row label{
+    margin-left: 5px;
+}
+
+button, .btn, input[type="submit"]{
+    padding: 12px 70px;
+    outline: none;
+    font-size: 16px;
+}
+
+.btn-1{
+    background-color: #20DAD0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-1:hover{
+    background-color: #fff;
+    border: 2px solid #20DAD0;
+    border-radius: 5px;
+    color: #20DAD0;
+}

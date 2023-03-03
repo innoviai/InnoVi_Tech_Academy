@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body{
+    background-color: #C4C4C4;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.center-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
+
+@media (min-width:576px){
+    .container{max-width:540px}
+}
+@media (min-width:768px){
+    .container{max-width:720px}
+}
+@media (min-width:992px){
+    .container{max-width:960px}
+}
+@media (min-width:1200px){
+    .container{max-width:1140px}
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+
+.flex-warp{
+    flex-wrap: wrap;
+}
+
+.child-center-ver{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-32{
+    font-size: 2em;
+}
+
+.text-20{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.color-white{
+    color: white;
+}
+
+.margin-10{
+    margin: 10px;
+}
+
+.margin-left-10{
+    margin-left: 10px;
+}
+
+.margin-right-16{
+    margin-right: 1em;
+}
+
+.margin-bottom-8{
+    margin-bottom: 0.5em;
+}
+
+.margin-bottom-16{
+    margin-bottom: 1em;
+}
+
+.margin-bottom-32{
+    margin-bottom: 2em;
+}
+
+.width-x{
+    width: 300px;
+}
+
+/*Select Box*/
+.selectBox {
+    position: relative;
+    width: 200px;
+}
+
+.selectBox .item-selected {
+    background-color: white;
+    color: #0088cc;
+    border: 1px solid lightgray;
+    border-radius: 0.75em;
+    padding: 6px 12px;
+}
+
+.selectBox .items {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: white;
+    color: black;
+}
+
+.selectBox .items{
+    display: none;
+}
+
+.selectBox .items.active {
+    display: block;
+}
+
+.selectBox .item-selected,
+.selectBox .items div {
+    padding: 6px 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.selectBox .items div:hover,
+.selectBox .items .same-as-selected {
+    background: #F5FAFF;
+    color: #0088cc;
+}
+
+/*Menu Box*/
+.menuBox .container-menu-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menuBox .container-menu-title .menu-title{
+    display: flex;
+    background-color: #F8FAFE;
+    margin: 0 10px;
+}
+
+.menuBox .container-menu-title .menu-title div{
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #234262;
+    transition: all ease 0.2s;
+}
+
+.menuBox .container-menu-title .menu-title div:hover{
+    background-color: #20dad0;
+    color: white;
+}
+
+.menuBox .container-menu-title .menu-title div.active{
+    background-color: #20dad0;
+    color: white;
+}
+
+.menuBox .menu-content .content-detail-preview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*Face Box*/
+.faceBox img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.faceBox .title{
+    text-align: center;
+    padding: 5px 0;
+}
+
+/*Event Box*/
+.eventBox{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.eventBox .date{
+    padding: 10px 0;
+    text-align: center;
+    flex: 1;
+}
+
+.eventBox .date-1{
+    background: #317bd6;
+}
+
+.eventBox .date-2{
+    background: #B89439;
+}
+
+
+.eventBox .date .num{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Abril Fatface", cursive;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 2px;
+}
+
+.eventBox .date .week{
+    font-size: 10px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.eventBox .info{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    flex: 3;
+    text-align: center;
+}
